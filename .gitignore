@@ -1,0 +1,117 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# DB
+tests.db
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info
+dist/
+build/
+
+# Flask specific files
+instance/
+*.log
+
+# Environments and dependencies
+.env
+*.venv
+.venv/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+site
+
+# Environment variable files
+*.env
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.mypy_cache
+
+# Pytest
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Other artifacts
+.DS_Store
+*.log
+
+# VS Code configuration files
+.vscode/
+
+# PyInstaller files
+build/
+dist/
+*.spec
+
+# Operating system files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Ignoring executables
+*.exe
